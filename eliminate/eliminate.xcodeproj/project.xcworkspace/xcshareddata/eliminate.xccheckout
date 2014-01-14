@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E3C9DB4-A786-44E7-ADB7-917DE567279F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eliminate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D60D47B1-CCB5-493C-AB2E-EAD15664D666</key>
+		<string>https://github.com/liaocpen/eliminate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eliminate/eliminate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D60D47B1-CCB5-493C-AB2E-EAD15664D666</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liaocpen/eliminate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D60D47B1-CCB5-493C-AB2E-EAD15664D666</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D60D47B1-CCB5-493C-AB2E-EAD15664D666</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eliminate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

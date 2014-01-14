@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1800C13C1884257D006623A9 /* DotGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C13B1884257D006623A9 /* DotGameScene.m */; };
 		18C7DCB31882EFF900FA9CFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7DCB21882EFF900FA9CFD /* QuartzCore.framework */; };
 		18C7DCB51882EFF900FA9CFD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7DCB41882EFF900FA9CFD /* OpenGLES.framework */; };
 		18C7DCB71882EFF900FA9CFD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7DCB61882EFF900FA9CFD /* OpenAL.framework */; };
@@ -212,18 +213,6 @@
 		18C7DF5C1882EFFC00FA9CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF5B1882EFFC00FA9CFD /* AppDelegate.m */; };
 		18C7DF5F1882EFFC00FA9CFD /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF5E1882EFFC00FA9CFD /* HelloWorldScene.m */; };
 		18C7DF621882EFFC00FA9CFD /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF611882EFFC00FA9CFD /* IntroScene.m */; };
-		18C7DF661882EFFC00FA9CFD /* NewtonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF651882EFFC00FA9CFD /* NewtonScene.m */; };
-		18C7DF691882EFFC00FA9CFD /* NewtonSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF681882EFFC00FA9CFD /* NewtonSphere.m */; };
-		18C7DF6C1882EFFC00FA9CFD /* LightBulb.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF6B1882EFFC00FA9CFD /* LightBulb.m */; };
-		18C7DF6F1882EFFC00FA9CFD /* Rope.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DF6E1882EFFC00FA9CFD /* Rope.m */; };
-		18C7DF711882EFFC00FA9CFD /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF701882EFFC00FA9CFD /* fire.plist */; };
-		18C7DF731882EFFC00FA9CFD /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF721882EFFC00FA9CFD /* fire.png */; };
-		18C7DF751882EFFC00FA9CFD /* newton-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF741882EFFC00FA9CFD /* newton-ipadhd.plist */; };
-		18C7DF771882EFFC00FA9CFD /* newton-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF761882EFFC00FA9CFD /* newton-ipadhd.png */; };
-		18C7DF791882EFFC00FA9CFD /* newton-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF781882EFFC00FA9CFD /* newton-ipad.plist */; };
-		18C7DF7B1882EFFC00FA9CFD /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF7A1882EFFC00FA9CFD /* newton-ipad.png */; };
-		18C7DF7D1882EFFC00FA9CFD /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF7C1882EFFC00FA9CFD /* newton.plist */; };
-		18C7DF7F1882EFFC00FA9CFD /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C7DF7E1882EFFC00FA9CFD /* newton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +226,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1800C13A1884257D006623A9 /* DotGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DotGameScene.h; path = Classes/Scene/DotGameScene.h; sourceTree = "<group>"; };
+		1800C13B1884257D006623A9 /* DotGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotGameScene.m; path = Classes/Scene/DotGameScene.m; sourceTree = "<group>"; };
 		18C7DCAF1882EFF900FA9CFD /* eliminate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eliminate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7DCB21882EFF900FA9CFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18C7DCB41882EFF900FA9CFD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -665,23 +656,6 @@
 		18C7DF5E1882EFFC00FA9CFD /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		18C7DF601882EFFC00FA9CFD /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		18C7DF611882EFFC00FA9CFD /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
-		18C7DF631882EFFC00FA9CFD /* NewtonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonConstants.h; path = Classes/NewtonConstants.h; sourceTree = "<group>"; };
-		18C7DF641882EFFC00FA9CFD /* NewtonScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonScene.h; path = Classes/NewtonScene.h; sourceTree = "<group>"; };
-		18C7DF651882EFFC00FA9CFD /* NewtonScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonScene.m; path = Classes/NewtonScene.m; sourceTree = "<group>"; };
-		18C7DF671882EFFC00FA9CFD /* NewtonSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonSphere.h; path = Classes/NewtonSphere.h; sourceTree = "<group>"; };
-		18C7DF681882EFFC00FA9CFD /* NewtonSphere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonSphere.m; path = Classes/NewtonSphere.m; sourceTree = "<group>"; };
-		18C7DF6A1882EFFC00FA9CFD /* LightBulb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightBulb.h; path = Classes/LightBulb.h; sourceTree = "<group>"; };
-		18C7DF6B1882EFFC00FA9CFD /* LightBulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LightBulb.m; path = Classes/LightBulb.m; sourceTree = "<group>"; };
-		18C7DF6D1882EFFC00FA9CFD /* Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rope.h; path = Classes/Rope.h; sourceTree = "<group>"; };
-		18C7DF6E1882EFFC00FA9CFD /* Rope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Rope.m; path = Classes/Rope.m; sourceTree = "<group>"; };
-		18C7DF701882EFFC00FA9CFD /* fire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fire.plist; path = Resources/fire.plist; sourceTree = "<group>"; };
-		18C7DF721882EFFC00FA9CFD /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/fire.png; sourceTree = "<group>"; };
-		18C7DF741882EFFC00FA9CFD /* newton-ipadhd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipadhd.plist"; path = "Resources/newton-ipadhd.plist"; sourceTree = "<group>"; };
-		18C7DF761882EFFC00FA9CFD /* newton-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipadhd.png"; path = "Resources/newton-ipadhd.png"; sourceTree = "<group>"; };
-		18C7DF781882EFFC00FA9CFD /* newton-ipad.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipad.plist"; path = "Resources/newton-ipad.plist"; sourceTree = "<group>"; };
-		18C7DF7A1882EFFC00FA9CFD /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
-		18C7DF7C1882EFFC00FA9CFD /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
-		18C7DF7E1882EFFC00FA9CFD /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -705,6 +679,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1800C136188424CB006623A9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1800C13A1884257D006623A9 /* DotGameScene.h */,
+				1800C13B1884257D006623A9 /* DotGameScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
 		18C7DCA61882EFF800FA9CFD = {
 			isa = PBXGroup;
 			children = (
@@ -760,14 +743,6 @@
 				18C7DCEF1882EFF900FA9CFD /* Info.plist */,
 				18C7DCF01882EFF900FA9CFD /* iTunesArtwork */,
 				18C7DCF21882EFF900FA9CFD /* iTunesArtwork@2x */,
-				18C7DF701882EFFC00FA9CFD /* fire.plist */,
-				18C7DF721882EFFC00FA9CFD /* fire.png */,
-				18C7DF741882EFFC00FA9CFD /* newton-ipadhd.plist */,
-				18C7DF761882EFFC00FA9CFD /* newton-ipadhd.png */,
-				18C7DF781882EFFC00FA9CFD /* newton-ipad.plist */,
-				18C7DF7A1882EFFC00FA9CFD /* newton-ipad.png */,
-				18C7DF7C1882EFFC00FA9CFD /* newton.plist */,
-				18C7DF7E1882EFFC00FA9CFD /* newton.png */,
 				18C7DCD41882EFF900FA9CFD /* Icons */,
 			);
 			name = Resources;
@@ -1577,21 +1552,13 @@
 		18C7DF591882EFFC00FA9CFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1800C136188424CB006623A9 /* Scene */,
 				18C7DF5A1882EFFC00FA9CFD /* AppDelegate.h */,
 				18C7DF5B1882EFFC00FA9CFD /* AppDelegate.m */,
 				18C7DF5D1882EFFC00FA9CFD /* HelloWorldScene.h */,
 				18C7DF5E1882EFFC00FA9CFD /* HelloWorldScene.m */,
 				18C7DF601882EFFC00FA9CFD /* IntroScene.h */,
 				18C7DF611882EFFC00FA9CFD /* IntroScene.m */,
-				18C7DF631882EFFC00FA9CFD /* NewtonConstants.h */,
-				18C7DF641882EFFC00FA9CFD /* NewtonScene.h */,
-				18C7DF651882EFFC00FA9CFD /* NewtonScene.m */,
-				18C7DF671882EFFC00FA9CFD /* NewtonSphere.h */,
-				18C7DF681882EFFC00FA9CFD /* NewtonSphere.m */,
-				18C7DF6A1882EFFC00FA9CFD /* LightBulb.h */,
-				18C7DF6B1882EFFC00FA9CFD /* LightBulb.m */,
-				18C7DF6D1882EFFC00FA9CFD /* Rope.h */,
-				18C7DF6E1882EFFC00FA9CFD /* Rope.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1667,11 +1634,8 @@
 				18C7DCCF1882EFF900FA9CFD /* Default@2x.png in Resources */,
 				18C7DCE21882EFF900FA9CFD /* Icon-120.png in Resources */,
 				18C7DEE61882EFFB00FA9CFD /* LICENSE_CCBReader.txt in Resources */,
-				18C7DF791882EFFC00FA9CFD /* newton-ipad.plist in Resources */,
-				18C7DF751882EFFC00FA9CFD /* newton-ipadhd.plist in Resources */,
 				18C7DCD81882EFF900FA9CFD /* Icon@2x.png in Resources */,
 				18C7DCEA1882EFF900FA9CFD /* Icon-Small@2x.png in Resources */,
-				18C7DF7D1882EFFC00FA9CFD /* newton.plist in Resources */,
 				18C7DCDC1882EFF900FA9CFD /* Icon-72@2x.png in Resources */,
 				18C7DCCD1882EFF900FA9CFD /* Default.png in Resources */,
 				18C7DCD61882EFF900FA9CFD /* Icon.png in Resources */,
@@ -1679,16 +1643,11 @@
 				18C7DCD31882EFF900FA9CFD /* Default-Landscape~ipad.png in Resources */,
 				18C7DCE81882EFF900FA9CFD /* Icon-Small.png in Resources */,
 				18C7DCE61882EFF900FA9CFD /* Icon-Small-50.png in Resources */,
-				18C7DF711882EFFC00FA9CFD /* fire.plist in Resources */,
-				18C7DF731882EFFC00FA9CFD /* fire.png in Resources */,
-				18C7DF7B1882EFFC00FA9CFD /* newton-ipad.png in Resources */,
 				18C7DECF1882EFFB00FA9CFD /* LICENSE_Kazmath.txt in Resources */,
 				18C7DCDA1882EFF900FA9CFD /* Icon-72.png in Resources */,
 				18C7DE281882EFFA00FA9CFD /* LICENSE_cocos2d.txt in Resources */,
-				18C7DF771882EFFC00FA9CFD /* newton-ipadhd.png in Resources */,
 				18C7DCD11882EFF900FA9CFD /* Default-568h@2x.png in Resources */,
 				18C7DCF11882EFF900FA9CFD /* iTunesArtwork in Resources */,
-				18C7DF7F1882EFFC00FA9CFD /* newton.png in Resources */,
 				18C7DCEC1882EFF900FA9CFD /* Icon-Spotlight-iOS7.png in Resources */,
 				18C7DCE01882EFF900FA9CFD /* Icon-76@2x.png in Resources */,
 				18C7DF541882EFFC00FA9CFD /* LICENSE_Chipmunk.txt in Resources */,
@@ -1772,7 +1731,6 @@
 				18C7DE3B1882EFFB00FA9CFD /* OALAudioTrack.m in Sources */,
 				18C7DD7E1882EFFA00FA9CFD /* CCProgressNode.m in Sources */,
 				18C7DD711882EFFA00FA9CFD /* CCPhysicsBody.m in Sources */,
-				18C7DF6C1882EFFC00FA9CFD /* LightBulb.m in Sources */,
 				18C7DDF61882EFFA00FA9CFD /* CCWindow.m in Sources */,
 				18C7DD0B1882EFF900FA9CFD /* CCActionProgressTimer.m in Sources */,
 				18C7DEC11882EFFB00FA9CFD /* plane.c in Sources */,
@@ -1782,18 +1740,15 @@
 				18C7DE6B1882EFFB00FA9CFD /* OALAudioSession.m in Sources */,
 				18C7DEE21882EFFB00FA9CFD /* CCBLocalizationManager.m in Sources */,
 				18C7DDCE1882EFFA00FA9CFD /* CCTiledMapObjectGroup.m in Sources */,
-				18C7DF691882EFFC00FA9CFD /* NewtonSphere.m in Sources */,
 				18C7DECB1882EFFB00FA9CFD /* vec3.c in Sources */,
 				18C7DD4E1882EFF900FA9CFD /* CCLayoutBox.m in Sources */,
 				18C7DD4B1882EFF900FA9CFD /* CCLayout.m in Sources */,
 				18C7DE6E1882EFFB00FA9CFD /* OALSuspendHandler.m in Sources */,
 				18C7DECD1882EFFB00FA9CFD /* vec4.c in Sources */,
 				18C7DDDF1882EFFA00FA9CFD /* CCDirectorIOS.m in Sources */,
-				18C7DF661882EFFC00FA9CFD /* NewtonScene.m in Sources */,
 				18C7DDB61882EFFA00FA9CFD /* CCSpriteFrameCache.m in Sources */,
 				18C7DE751882EFFB00FA9CFD /* mach_timing.c in Sources */,
 				18C7DE591882EFFB00FA9CFD /* ALListener.m in Sources */,
-				18C7DF6F1882EFFC00FA9CFD /* Rope.m in Sources */,
 				18C7DD321882EFF900FA9CFD /* ccFPSImages.m in Sources */,
 				18C7DE091882EFFA00FA9CFD /* ccUtils.c in Sources */,
 				18C7DD7A1882EFFA00FA9CFD /* CCPhysicsShape.m in Sources */,
@@ -1831,6 +1786,7 @@
 				18C7DF5C1882EFFC00FA9CFD /* AppDelegate.m in Sources */,
 				18C7DD2C1882EFF900FA9CFD /* CCDrawingPrimitives.m in Sources */,
 				18C7DE1D1882EFFA00FA9CFD /* TGAlib.m in Sources */,
+				1800C13C1884257D006623A9 /* DotGameScene.m in Sources */,
 				18C7DDE91882EFFA00FA9CFD /* UITouch+CC.m in Sources */,
 				18C7DEC71882EFFB00FA9CFD /* utility.c in Sources */,
 				18C7DE261882EFFA00FA9CFD /* ZipUtils.m in Sources */,
@@ -2045,6 +2001,7 @@
 				18C7DF841882EFFC00FA9CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C7DF851882EFFC00FA9CFD /* Build configuration list for PBXNativeTarget "eliminate" */ = {
 			isa = XCConfigurationList;
@@ -2053,6 +2010,7 @@
 				18C7DF871882EFFC00FA9CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
