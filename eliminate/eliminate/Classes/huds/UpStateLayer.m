@@ -46,7 +46,7 @@
         [m_labelTimes setPosition:ccp(m_timeItem.contentSize.width / 2 + 10, m_timeItem.contentSize.height / 2)];
         [m_scoreItem addChild:m_labelScore z:11];
         [m_timeItem addChild:m_labelTimes z:11];
-        //[self setVisible:false];
+        [self setVisible:false];
         
         
         
@@ -69,7 +69,8 @@
 
 -(void)startAnimationDisplay
 {
-
+    [self setVisible:true];
+    
 }
 
 -(void)menuBePressed:(id)sender
