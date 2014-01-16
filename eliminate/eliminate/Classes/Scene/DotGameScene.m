@@ -8,6 +8,7 @@
 
 #import "DotGameScene.h"
 #import "UpStateLayer.h"
+#import "DownStateLayer.h"
 
 #define GameLayerTag 1001
 @implementation DotGameScene
@@ -67,7 +68,10 @@
 
 -(void) playingNow:(id)sender
 {
-    CCScene *playingScene = [UpStateLayer node];
+//    CCScene *playingScene = [UpStateLayer node];
+//    [[CCDirector sharedDirector] replaceScene:playingScene];
+
+    CCScene *playingScene = [DownStateLayer node];
     [[CCDirector sharedDirector] replaceScene:playingScene];
 }
 

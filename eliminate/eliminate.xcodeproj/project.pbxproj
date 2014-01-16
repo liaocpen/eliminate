@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D3910F1887B9B1009CA674 /* DownStateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3910E1887B9B1009CA674 /* DownStateLayer.m */; };
 		04F1CD581884E47100B8AB83 /* about_us.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F1CD381884E47100B8AB83 /* about_us.png */; };
 		04F1CD591884E47100B8AB83 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F1CD391884E47100B8AB83 /* ball.png */; };
 		04F1CD5A1884E47100B8AB83 /* buttonbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F1CD3A1884E47100B8AB83 /* buttonbackground.png */; };
@@ -41,6 +42,7 @@
 		04F1CD771884E47100B8AB83 /* TopPlayingNow.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F1CD571884E47100B8AB83 /* TopPlayingNow.png */; };
 		04F1CD7A18851A5C00B8AB83 /* DotPlayingScnen.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1CD7918851A5C00B8AB83 /* DotPlayingScnen.m */; };
 		04F1CD7E18851FE900B8AB83 /* UpStateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1CD7D18851FE900B8AB83 /* UpStateLayer.m */; };
+		04F1CD8118877D8400B8AB83 /* DotHudController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1CD8018877D8400B8AB83 /* DotHudController.m */; };
 		1800C13C1884257D006623A9 /* DotGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C13B1884257D006623A9 /* DotGameScene.m */; };
 		18C7DCB31882EFF900FA9CFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7DCB21882EFF900FA9CFD /* QuartzCore.framework */; };
 		18C7DCB51882EFF900FA9CFD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C7DCB41882EFF900FA9CFD /* OpenGLES.framework */; };
@@ -260,6 +262,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D3910D1887B9B1009CA674 /* DownStateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownStateLayer.h; path = Classes/huds/DownStateLayer.h; sourceTree = "<group>"; };
+		04D3910E1887B9B1009CA674 /* DownStateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownStateLayer.m; path = Classes/huds/DownStateLayer.m; sourceTree = "<group>"; };
 		04F1CD381884E47100B8AB83 /* about_us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_us.png; sourceTree = "<group>"; };
 		04F1CD391884E47100B8AB83 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		04F1CD3A1884E47100B8AB83 /* buttonbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbackground.png; sourceTree = "<group>"; };
@@ -296,6 +300,8 @@
 		04F1CD7918851A5C00B8AB83 /* DotPlayingScnen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotPlayingScnen.m; path = Classes/Scene/DotPlayingScnen.m; sourceTree = "<group>"; };
 		04F1CD7C18851FE900B8AB83 /* UpStateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpStateLayer.h; path = Classes/huds/UpStateLayer.h; sourceTree = "<group>"; };
 		04F1CD7D18851FE900B8AB83 /* UpStateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpStateLayer.m; path = Classes/huds/UpStateLayer.m; sourceTree = "<group>"; };
+		04F1CD7F18877D8400B8AB83 /* DotHudController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DotHudController.h; path = Classes/huds/DotHudController.h; sourceTree = "<group>"; };
+		04F1CD8018877D8400B8AB83 /* DotHudController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotHudController.m; path = Classes/huds/DotHudController.m; sourceTree = "<group>"; };
 		1800C13A1884257D006623A9 /* DotGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DotGameScene.h; path = Classes/Scene/DotGameScene.h; sourceTree = "<group>"; };
 		1800C13B1884257D006623A9 /* DotGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotGameScene.m; path = Classes/Scene/DotGameScene.m; sourceTree = "<group>"; };
 		18C7DCAF1882EFF900FA9CFD /* eliminate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eliminate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -794,6 +800,10 @@
 			children = (
 				04F1CD7C18851FE900B8AB83 /* UpStateLayer.h */,
 				04F1CD7D18851FE900B8AB83 /* UpStateLayer.m */,
+				04F1CD7F18877D8400B8AB83 /* DotHudController.h */,
+				04F1CD8018877D8400B8AB83 /* DotHudController.m */,
+				04D3910D1887B9B1009CA674 /* DownStateLayer.h */,
+				04D3910E1887B9B1009CA674 /* DownStateLayer.m */,
 			);
 			name = huds;
 			sourceTree = "<group>";
@@ -1829,6 +1839,7 @@
 				18C7DEBD1882EFFB00FA9CFD /* mat4.c in Sources */,
 				18C7DD191882EFF900FA9CFD /* CCAtlasNode.m in Sources */,
 				18C7DE671882EFFB00FA9CFD /* OpenALManager.m in Sources */,
+				04F1CD8118877D8400B8AB83 /* DotHudController.m in Sources */,
 				18C7DE731882EFFB00FA9CFD /* IOSVersion.m in Sources */,
 				18C7DD281882EFF900FA9CFD /* CCDirector.m in Sources */,
 				04F1CD7E18851FE900B8AB83 /* UpStateLayer.m in Sources */,
@@ -1900,6 +1911,7 @@
 				18C7DD4E1882EFF900FA9CFD /* CCLayoutBox.m in Sources */,
 				18C7DD4B1882EFF900FA9CFD /* CCLayout.m in Sources */,
 				18C7DE6E1882EFFB00FA9CFD /* OALSuspendHandler.m in Sources */,
+				04D3910F1887B9B1009CA674 /* DownStateLayer.m in Sources */,
 				18C7DECD1882EFFB00FA9CFD /* vec4.c in Sources */,
 				18C7DDDF1882EFFA00FA9CFD /* CCDirectorIOS.m in Sources */,
 				18C7DDB61882EFFA00FA9CFD /* CCSpriteFrameCache.m in Sources */,
