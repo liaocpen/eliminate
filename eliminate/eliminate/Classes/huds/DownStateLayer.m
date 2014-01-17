@@ -41,15 +41,29 @@
         [self addChild:skillOne];
         [self addChild:skillTwo];
         [self addChild:skillThree];
+        
+        [self setVisible:false];
     }
     return self;
+}
+
+-(void)startAnimationDisplay
+{
+    [self setAnchorPoint:ccp(0, 0)];
+    [self setPosition:ccp(0, -60)];
+    [self setVisible:true];
+    
+    CCActionMoveTo *moveTo1 = [CCActionMoveTo actionWithDuration:0.2 position:ccp(0, 0)];
+    CCActionMoveTo *moveTo2 = [CCActionMoveTo actionWithDuration:0.2 position:ccp(0, -17)];
+    [self runAction:[CCActionSequence actions:moveTo1, moveTo2,nil]];
 }
 
 #pragma mark -----
 #pragma mark - Custom Method
 
 -(void) skillOnePressed {
-    NSLog(@"1");
+    
+    
 }
 
 -(void) skillTwoPressed {

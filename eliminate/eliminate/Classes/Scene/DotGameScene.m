@@ -68,11 +68,11 @@
 
 -(void) playingNow:(id)sender
 {
-//    CCScene *playingScene = [UpStateLayer node];
-//    [[CCDirector sharedDirector] replaceScene:playingScene];
-
-    CCScene *playingScene = [DownStateLayer node];
+    CCScene *playingScene = [UpStateLayer node];
     [[CCDirector sharedDirector] replaceScene:playingScene];
+
+//    CCScene *playingScene = [DownStateLayer node];
+//    [[CCDirector sharedDirector] replaceScene:playingScene];
 }
 
 -(void) multiplePlayer: (id)sender
