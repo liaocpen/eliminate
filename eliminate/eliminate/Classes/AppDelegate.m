@@ -49,6 +49,9 @@
 -(CCScene *)startScene
 {
 	// This method should return the very first scene to be run when your app starts.
+    int a = 3, b = 5,c;
+    c = a ^ b;
+    NSLog(@"fuck:%d",c);
 	return [IntroScene scene];
 }
 

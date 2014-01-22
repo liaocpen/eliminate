@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		043BE865188916C300AF24B0 /* PauseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BE864188916C300AF24B0 /* PauseLayer.m */; };
+		043BE86A188E678C00AF24B0 /* DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BE869188E678C00AF24B0 /* DataHandle.m */; };
+		043BE86D188E680A00AF24B0 /* DrawSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BE86C188E680A00AF24B0 /* DrawSprite.m */; };
 		04D3910F1887B9B1009CA674 /* DownStateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3910E1887B9B1009CA674 /* DownStateLayer.m */; };
 		04F1CD581884E47100B8AB83 /* about_us.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F1CD381884E47100B8AB83 /* about_us.png */; };
 		04F1CD591884E47100B8AB83 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F1CD391884E47100B8AB83 /* ball.png */; };
@@ -265,6 +267,11 @@
 /* Begin PBXFileReference section */
 		043BE863188916C300AF24B0 /* PauseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PauseLayer.h; path = Classes/huds/PauseLayer.h; sourceTree = "<group>"; };
 		043BE864188916C300AF24B0 /* PauseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PauseLayer.m; path = Classes/huds/PauseLayer.m; sourceTree = "<group>"; };
+		043BE867188E532000AF24B0 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = Classes/Core/config.h; sourceTree = "<group>"; };
+		043BE868188E678C00AF24B0 /* DataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataHandle.h; path = Classes/Core/DataHandle.h; sourceTree = "<group>"; };
+		043BE869188E678C00AF24B0 /* DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataHandle.m; path = Classes/Core/DataHandle.m; sourceTree = "<group>"; };
+		043BE86B188E680A00AF24B0 /* DrawSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawSprite.h; path = Classes/Core/DrawSprite.h; sourceTree = "<group>"; };
+		043BE86C188E680A00AF24B0 /* DrawSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawSprite.m; path = Classes/Core/DrawSprite.m; sourceTree = "<group>"; };
 		04D3910D1887B9B1009CA674 /* DownStateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownStateLayer.h; path = Classes/huds/DownStateLayer.h; sourceTree = "<group>"; };
 		04D3910E1887B9B1009CA674 /* DownStateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownStateLayer.m; path = Classes/huds/DownStateLayer.m; sourceTree = "<group>"; };
 		04F1CD381884E47100B8AB83 /* about_us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_us.png; sourceTree = "<group>"; };
@@ -758,6 +765,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043BE866188E52F800AF24B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				043BE867188E532000AF24B0 /* config.h */,
+				043BE868188E678C00AF24B0 /* DataHandle.h */,
+				043BE869188E678C00AF24B0 /* DataHandle.m */,
+				043BE86B188E680A00AF24B0 /* DrawSprite.h */,
+				043BE86C188E680A00AF24B0 /* DrawSprite.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		04F1CD371884E47100B8AB83 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -1689,6 +1708,7 @@
 		18C7DF591882EFFC00FA9CFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				043BE866188E52F800AF24B0 /* Core */,
 				04F1CD371884E47100B8AB83 /* Images */,
 				1800C136188424CB006623A9 /* Scene */,
 				18C7DF5A1882EFFC00FA9CFD /* AppDelegate.h */,
@@ -1883,6 +1903,7 @@
 				18C7DD0E1882EFF900FA9CFD /* CCActionTween.m in Sources */,
 				18C7DE7C1882EFFB00FA9CFD /* NSMutableDictionary+WeakReferences.m in Sources */,
 				18C7DD591882EFF900FA9CFD /* CCNode+Debug.m in Sources */,
+				043BE86A188E678C00AF24B0 /* DataHandle.m in Sources */,
 				18C7DD121882EFF900FA9CFD /* CCAnimation.m in Sources */,
 				18C7DEBB1882EFFB00FA9CFD /* mat3.c in Sources */,
 				18C7DDC71882EFFA00FA9CFD /* CCTiledMap.m in Sources */,
@@ -1934,6 +1955,7 @@
 				18C7DDA51882EFFA00FA9CFD /* ccShaders.m in Sources */,
 				18C7DEB91882EFFB00FA9CFD /* matrix.c in Sources */,
 				18C7DDCB1882EFFA00FA9CFD /* CCTiledMapLayer.m in Sources */,
+				043BE86D188E680A00AF24B0 /* DrawSprite.m in Sources */,
 				18C7DF5F1882EFFC00FA9CFD /* HelloWorldScene.m in Sources */,
 				18C7DEBF1882EFFB00FA9CFD /* neon_matrix_impl.c in Sources */,
 				18C7DD441882EFF900FA9CFD /* CCLabelTTF.m in Sources */,

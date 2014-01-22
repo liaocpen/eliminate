@@ -56,6 +56,7 @@
     
     [m_resume runAction:[CCActionSequence actions:moveTo1, moveTo12, nil]];
     [m_restart runAction:[CCActionSequence actions:moveTo2, moveTo22,nil]];
+    [m_exittomain runAction:[CCActionSequence actions:moveTo3, moveTo32, nil]];
     
     
 }
@@ -72,7 +73,8 @@
 }
 
 -(void) exitToMainScene {
-    
+    DotGameScene *scene = [DotGameScene node];
+    [[CCDirector sharedDirector] replaceScene:scene];
 }
 
 @end
